@@ -1,0 +1,46 @@
+.cart-table {
+  border: 1px solid transparent;
+  font-size: 1vw;
+}
+
+.cart-section th:nth-child(2),
+.cart-section th:nth-child(4) {
+  width: 20%;
+}
+
+.cart-table th:nth-child(3) {
+  width: 13%;
+}
+
+.cart-table th:last-child {
+  width: 8%;
+}
+
+.cart-table th,
+.cart-table td {
+  text-align: center;
+}
+
+.cart-item:last-child {
+  border-bottom: 1px solid transparent;
+}
+
+.cart-table .cart-item:last-child td {
+  border-bottom: 1px solid transparent;
+}
+
+.cart-table th:last-child,
+.cart-item td:last-child {
+  border-right: 1px solid transparent;
+}
+
+.cart-item-quantity input {
+  text-align: center;
+  font-size: 1vw;
+}
+
+.close-btn {
+  margin-left: 10px;
+  padding: 10px;
+  text-align: center;
+}
